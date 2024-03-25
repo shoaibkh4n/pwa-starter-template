@@ -57,7 +57,7 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [LICENCE](https://github.com/shoaibkh4n/pwa-starter-template/blob/main/LICENSE) for more information.
 
 ## Acknowledgments
 
