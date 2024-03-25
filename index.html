@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your PWA description here">
+
+    <!-- theme color of your website, I setted some random here -->
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Quazire PWA">
+    <meta name="msapplication-TileColor" content="#317EFB">
+    <meta name="msapplication-TileImage" content="/logo192x192.png">
+    <link rel="apple-touch-icon" href="/logo192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/your-favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/your-favicon-16x16.png">
+    <title>PWA Starter Template - Quazire by Shoaibkh4n</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/serviceworker.js')
+                    .then((reg) => console.log('Service Worker Registered: ', reg.scope))
+                    .catch((err) => console.log('Service Worker Registration Failed: ', err));
+            });
+        }
+    </script>
+</head>
+
+
+<body class="main-container">
+
+    <div class="logo-container">
+        <a href="https://quazire.com/opensource" target="_blank">
+            <img src="logo192x192.png" class="logo quazire" alt="Quazire logo" />
+        </a>
+        <p>🤝</p>
+        <a href="https://twitter.com/theshoaibkh4n" target="_blank">
+            <img src="shoaibkh4n.jpg" class="logo shoaibkh4n" alt="Shoaibkhan twitter logo" />
+        </a>
+
+    </div>
+    <h1>PWA Template by <a href="https://twitter.com/theshoaibkh4n" target="_blank">@theshoaibkhan</a> </h1>
+
+    <p>
+        Complete ready to integrate PWA template by
+
+        <a target="_blank" href="https://github.com/shoaibkh4n">
+            <strong>shoaibkh4n</strong>
+        </a>
+
+    </p>
+
+    <p class="read-the-docs">
+        Use this structure for any of your project (create-react, Vite + React , etc..)
+    </p>
+    <p class="read-the-docs">
+        Instructions to use : <a href="/">Readme.md</a>
+    </p>
+    <p class="read-the-docs">
+        For more check <a href="https://quazire.com/opensource">Quazire</a>
+    </p>
+
+</body>
+
+</html>

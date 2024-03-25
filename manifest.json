@@ -1,0 +1,22 @@
+{
+  "short_name": "PWA Template",
+  "name": "PWA Starter Template - Quazire.com",
+  "icons": [
+    {
+      "src": "logo192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "logo512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "scope": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}
